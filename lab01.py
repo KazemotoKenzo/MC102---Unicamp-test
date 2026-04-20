@@ -4,8 +4,8 @@ class IntArith:
         self.b = 0
 
     def inputSystem(self):
-        self.a = int(input("Number a: "))
-        self.b = int(input("Number b: "))
+        self.a = int(input(""))
+        self.b = int(input(""))
     
     def add(self):
         print("a + b =", (self.a + self.b))
