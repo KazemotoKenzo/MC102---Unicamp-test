@@ -59,7 +59,8 @@ class LogComm:
         pass
 
     def run(self):
-        self.values()
+        self.inputSystem()
+        # self.values()
         late = 0
         Anl = [self.Anl1(), self.Anl2(), self.Anl3(), self.Anl4(), self.Anl5()]
 
